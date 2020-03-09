@@ -1,4 +1,6 @@
 import "bootstrap";
 
 var mixitup = require('mixitup');
-var mixer = mixitup('.cards');
+if (document.querySelector('.cards')) {
+  var mixer = mixitup('.cards');
+}
