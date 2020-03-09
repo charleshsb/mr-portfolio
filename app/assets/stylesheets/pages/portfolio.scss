@@ -93,7 +93,7 @@
   background-image: asset-url('suncoo_header.jpg');
   height: 300px;
   position: relative;
-  top: 25%;
+  top: 30%;
 }
 
 .sw {
@@ -107,7 +107,7 @@
   background-image: asset-url('vakko_header.jpg');
   height: 300px;
   position: relative;
-  top: 20%;
+  top: 30%;
 }
 
 .text {
@@ -135,6 +135,48 @@
 
 
 // Smallest device
+@media (min-width: 100px) and (max-width: 760px) {
+  .ph {
+    position: initial;
+  }
+  .remy {
+    position: initial;
+  }
+  .feeka {
+    position: initial;
+  }
+  .holiday {
+    position: initial;
+  }
+  .jane {
+    position: initial;
+  }
+  .jm {
+    position: initial;
+  }
+  .luco {
+    position: initial;
+  }
+  .lv {
+    position: initial;
+  }
+  .mathieu {
+    position: initial;
+  }
+  .morgan {
+    position: initial;
+  }
+  .suncoo {
+    position: initial;
+  }
+  .sw {
+    position: initial;
+  }
+  .vakko {
+    position: initial;
+  }
+}
+
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
     grid-template-columns: 1fr;
@@ -149,9 +191,10 @@
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .cards {
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 20%;
   }
 }
 
