@@ -1,0 +1,29 @@
+.footer-mathilde {
+  width: 100%;
+  background: $black;
+  color: $white;
+  max-height: 15vh;
+
+  a {
+    text-decoration: none;
+    opacity: 0.7;
+    color: $white;
+  }
+
+  a:hover {
+    opacity: 1;
+  }
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.developpeur {
+  text-align: right;
+  margin-right: 15px;
+  padding-bottom: 10px;
+  font-size: 0.8em;
+}
