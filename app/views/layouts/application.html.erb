@@ -7,7 +7,7 @@
     <meta name="description" content="Fashion stylist based in Paris. Working on editorials, lookbooks, campaigns, eshop and videos.">
     <meta property="og:title" content="MATHILDE REGNAULT - FASHION STYLIST" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content= '<%= image_tag("MrSocial.png") %>' />
+    <meta property="og:image" content= "http://mr-portfolio.herokuapp/assets/MrSocial-19e87c91c74ef4c426255249eb94231f1b31744c7882322b69999e5c984a0cd9.png" />
     <meta property="og:description" content="Fashion stylist based in Paris. Working on editorials, lookbooks, campaigns, eshop and videos." />
     <%= favicon_link_tag asset_path('') %>
     <%= csrf_meta_tags %>
@@ -16,7 +16,7 @@
     <!-- <%#= stylesheet_pack_tag 'application', media: 'all' %> Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body>
-
+    <%= image_tag("MrSocial.png") %>https://mr-portfolio.herokuapp.com/
     <% if current_page?(root_path) %>
       <%= yield %>
     <% else %>
