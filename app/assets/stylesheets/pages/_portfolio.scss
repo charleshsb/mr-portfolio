@@ -2,6 +2,10 @@
   text-align : right;
 }
 
+.filters:hover {
+  cursor: pointer;
+}
+
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
