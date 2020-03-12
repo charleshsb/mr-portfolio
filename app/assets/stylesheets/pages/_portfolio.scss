@@ -12,7 +12,7 @@
   grid-gap: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-bottom: 10%;
+  padding-bottom: 15%;
 }
 
 .card-projects {
@@ -21,97 +21,111 @@
   width: 100%;
   border-radius: 2px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
 }
 
 .ph {
   background-image: asset-url('ph_header.jpg');
-  height: 600px;
+  background-position: top;
+  height: 400px;
   position: relative;
-  top: 5%;
+  top: 0%;
 }
 
 .remy {
   background-image: asset-url('remy_header.jpg');
-  height: 300px;
+  background-position: top;
+  height: 200px;
   position: relative;
-  top: 40%;
+  top: 30%;
 }
 
 .feeka {
   background-image: asset-url('feeka_header.jpg');
-  height: 600px;
+  background-position: top;
+  height: 400px;
   position: relative;
-  top: 0%;
+  top: 5%;
 }
 
 .holiday {
   background-image: asset-url('h_header2.jpg');
-  height: 600px;
+  background-position: top;
+  height: 400px;
   position: relative;
-  top: 10%;
+  top: 5%;
 }
 
 .jane {
   background-image: asset-url('jane_header.jpg');
-  height: 600px;
+  background-position: top;
+  height: 400px;
   position: relative;
-  top: 0%;
+  top: 10%;
 }
 
 .jm {
   background-image: asset-url('jm_header.jpg');
-  height: 600px;
+  background-position: top;
+  height: 400px;
   position: relative;
   top: 15%;
 }
 
 .luco {
   background-image: asset-url('luco_header.jpg');
-  height: 600px;
+  background-position: top;
+  height: 400px;
   position: relative;
   top: 10%;
 }
 
 .lv {
   background-image: asset-url('lv_header.jpg');
-  height: 600px;
+  background-position: top;
+  height: 400px;
   position: relative;
-  top: 0%;
+  top: 15%;
 }
 
 .mathieu {
   background-image: asset-url('mathieu_header.jpg');
-  height: 600px;
+  background-position: top;
+  height: 400px;
   position: relative;
-  top: 20%;
+  top: 15%;
 }
 
 .morgan {
   background-image: asset-url('morgan_header.jpg');
-  height: 600px;
+  background-position: top;
+  height: 400px;
   position: relative;
-  top: 10%;
+  top: 20%;
 }
 
 .suncoo {
   background-image: asset-url('suncoo_header.jpg');
-  height: 300px;
+  background-position: top;
+  height: 200px;
   position: relative;
-  top: 30%;
+  top: 40%;
 }
 
 .sw {
   background-image: asset-url('sw_header.jpg');
-  height: 300px;
+  background-position: top;
+  height: 400px;
   position: relative;
-  top: 30%;
+  top: 20%;
 }
 
 .vakko {
   background-image: asset-url('vakko_header.jpg');
-  height: 300px;
+  background-position: top;
+  height: 200px;
   position: relative;
-  top: 30%;
+  top: 50%;
 }
 
 .text {
@@ -137,6 +151,17 @@
   }
 }
 
+.project-title {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+
+.project-description {
+  font-style: italic;
+  font-size: 1em;
+  text-align: center;
+}
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 760px) {
