@@ -1,5 +1,6 @@
 .filter-projects {
-  text-align : right;
+  text-align : center;
+  font-family: 'Archivo Black', "Raleway", "Helvetica", "sans-serif";
 }
 
 .filters:hover {
@@ -19,8 +20,6 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  border-radius: 2px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin-bottom: 20px;
 }
 
@@ -137,12 +136,12 @@
   width: 100%;
   height: 100%;
   background: rgba(10,10,10,0.5);
-  border-radius: 5px;
   z-index: 2;
   opacity: 0;
   color: $white;
   text-align: center;
   vertical-align: center;
+  font-family: 'Archivo Black', "Raleway", "Helvetica", "sans-serif";
 }
 
 .card-projects:hover {
@@ -156,6 +155,7 @@
   font-size: 1.2em;
   text-align: center;
   margin-bottom: 0px !important;
+  font-family: 'Archivo Black', "Raleway", "Helvetica", "sans-serif";
 }
 
 .project-description {
@@ -223,8 +223,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 992px) {
   .cards {
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 20%;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
