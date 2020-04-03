@@ -1,6 +1,7 @@
 .filter-projects {
   text-align : center;
   font-family: 'Archivo Black', "Raleway", "Helvetica", "sans-serif";
+  margin-bottom: 20px;
 }
 
 .filters:hover {
@@ -10,10 +11,8 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-bottom: 15%;
+  grid-template-rows: auto auto auto auto auto 200px;
+  grid-gap: 30px;
 }
 
 .card-projects {
@@ -26,9 +25,9 @@
 .ph {
   background-image: asset-url('ph_header.jpg');
   background-position: top;
-  height: 400px;
+  height: 450px;
   position: relative;
-  top: 0%;
+  top: 5%;
 }
 
 .remy {
@@ -36,71 +35,69 @@
   background-position: top;
   height: 200px;
   position: relative;
-  top: 30%;
+  top: 5%;
 }
 
 .feeka {
   background-image: asset-url('feeka_header.jpg');
   background-position: top;
-  height: 400px;
+  height: 450px;
   position: relative;
-  top: 5%;
+  top: -44%;
 }
 
 .holiday {
   background-image: asset-url('h_header2.jpg');
   background-position: top;
-  height: 400px;
+  height: 450px;
   position: relative;
-  top: 5%;
 }
 
 .jane {
   background-image: asset-url('jane_header.jpg');
   background-position: top;
-  height: 400px;
+  height: 450px;
   position: relative;
-  top: 10%;
+  top: -50%;
 }
 
 .jm {
   background-image: asset-url('jm_header.jpg');
   background-position: top;
-  height: 400px;
+  height: 450px;
   position: relative;
-  top: 15%;
+  top: 7%;
 }
 
 .luco {
   background-image: asset-url('luco_header.jpg');
   background-position: top;
-  height: 400px;
+  height: 450px;
   position: relative;
-  top: 10%;
+  top: -40%;
 }
 
 .lv {
   background-image: asset-url('lv_header.jpg');
   background-position: top;
-  height: 400px;
+  height: 200px;
   position: relative;
-  top: 15%;
+  top: 10%;
 }
 
 .mathieu {
   background-image: asset-url('mathieu_header.jpg');
   background-position: top;
-  height: 400px;
+  height: 450px;
   position: relative;
-  top: 30%;
 }
 
 .morgan {
   background-image: asset-url('morgan_header.jpg');
   background-position: top;
-  height: 400px;
+  height: 450px;
   position: relative;
-  top: 20%;
+  top: -190%;
 }
 
 .suncoo {
@@ -108,15 +105,14 @@
   background-position: top;
   height: 200px;
   position: relative;
-  top: 40%;
 }
 
 .sw {
   background-image: asset-url('sw_header.jpg');
   background-position: top;
-  height: 400px;
+  height: 450px;
   position: relative;
-  top: 30%;
+  top: -48%;
 }
 
 .vakko {
@@ -124,7 +120,47 @@
   background-position: top;
   height: 200px;
   position: relative;
-  top: 50%;
+  top: -45%;
+}
+
+.new1 {
+  background-image: asset-url('vakko_header.jpg');
+  background-position: top;
+  height: 200px;
+  position: relative;
+  top: -35%;
+}
+
+.new2 {
+  background-image: asset-url('sw_header.jpg');
+  background-position: top;
+  height: 450px;
+  position: relative;
+  top: -94%;
+}
+
+.new3 {
+  background-image: asset-url('sw_header.jpg');
+  background-position: top;
+  height: 450px;
+  position: relative;
+  top: -34%;
+}
+
+.new4 {
+  background-image: asset-url('sw_header.jpg');
+  background-position: top;
+  height: 450px;
+  position: relative;
+  top: -175%;
+}
+
+.new5 {
+  background-image: asset-url('vakko_header.jpg');
+  background-position: top;
+  height: 200px;
+  position: relative;
+  top: -50%;
 }
 
 .text {
@@ -149,6 +185,10 @@
     opacity: 1;
     transition: all 0.5s ease-out;
   }
+}
+
+.card-description {
+  margin-bottom: 20px;
 }
 
 .project-title {
@@ -205,38 +245,34 @@
   .vakko {
     position: initial;
   }
-}
-
-@media (min-width: 100px) and (max-width: 575px) {
-  .cards {
-    grid-template-columns: 1fr;
+  .new1 {
+    position: initial;
   }
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+  .new2 {
+    position: initial;
+  }
+  .new3 {
+    position: initial;
+  }
+  .new4 {
+    position: initial;
+  }
+  .new5 {
+    position: initial;
+  }
   .cards {
     grid-template-columns: 1fr;
+    padding-bottom: 10%;
+  }
+  .card-projects {
+    margin-bottom: 40px;
   }
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
