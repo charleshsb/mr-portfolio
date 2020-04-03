@@ -2,48 +2,16 @@
   <h3 style="text-align: center;">E-SHOP DES PETITS HAUTS</h3>
   <p style="text-align: center;">Carole Peyrot</p>
 
-
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <%= image_tag "ph_header.jpg", class:'d-block' %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "ph1.1.jpg", class:'d-block' %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "ph2.jpg", class:'d-block' %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "ph2.1.jpg", class:'d-block' %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "ph3.jpg", class:'d-block' %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "ph3.1.jpg", class:'d-block' %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "ph4.jpg", class:'d-block' %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "ph4.1.jpg", class:'d-block' %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "ph5.jpg", class:'d-block' %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "ph5.1.jpg", class:'d-block' %>
-      </div>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide half"><%= image_tag "ph_header.jpg"%><%= image_tag "ph1.1.jpg"%></div>
+      <div class="swiper-slide half"><%= image_tag "ph2.jpg"%><%= image_tag "ph2.1.jpg"%></div>
+      <div class="swiper-slide half"><%= image_tag "ph3.jpg"%><%= image_tag "ph3.1.jpg"%></div>
+      <div class="swiper-slide half"><%= image_tag "ph4.jpg"%><%= image_tag "ph4.1.jpg"%></div>
+      <div class="swiper-slide half"><%= image_tag "ph5.jpg"%><%= image_tag "ph5.1.jpg"%></div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+
+    <div class="swiper-scrollbar"></div>
   </div>
 
   <div class="back">
