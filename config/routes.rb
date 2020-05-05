@@ -17,6 +17,6 @@ Rails.application.routes.draw do
   get 'commercial-vakko', to: 'pages#vakko', as: :vakko
   get 'commercial-bekhti', to: 'pages#bekhti', as: :bekhti
 
-  get "*missing" => redirect("/")
+  # get "*missing" => redirect("/")
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
