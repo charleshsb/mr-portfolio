@@ -9,8 +9,7 @@
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-    <!-- <%#= stylesheet_pack_tag 'application', media: 'all' %> Uncomment if you import CSS in app/javascript/packs/application.js -->
+    <%= stylesheet_pack_tag 'application', media: 'all' %>
   </head>
   <body>
 
@@ -27,6 +26,5 @@
     <%= javascript_include_tag 'application' %>
 
     <%= javascript_pack_tag 'application' %>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   </body>
 </html>
