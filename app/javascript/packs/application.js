@@ -8,15 +8,9 @@ if (document.querySelector('.cards')) {
 }
 
 var swiper = new Swiper('.swiper-container', {
-  slidesPerView: 'auto',
-  centeredSlides: true,
-  loop: true,
-  scrollbar: {
-    el: '.swiper-scrollbar',
-    hide: true,
-  },
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
+  // centeredSlides: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 });

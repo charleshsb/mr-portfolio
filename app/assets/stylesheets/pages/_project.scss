@@ -52,7 +52,14 @@ max-height: 100%;
 max-width: 100%;
 }
 
-.half {
-  display: flex;
-  justify-content: space-evenly;
+.first-img {
+  padding-right: 20px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  display:none;
+}
+
+.fa-circle {
+  font-size: 0.7em;
 }

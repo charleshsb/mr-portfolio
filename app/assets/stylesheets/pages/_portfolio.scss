@@ -204,6 +204,10 @@
   text-align: center;
 }
 
+.xs-only {
+  display: none !important;
+}
+
 // Smallest device
 @media (min-width: 100px) and (max-width: 760px) {
   .ph {
@@ -262,6 +266,7 @@
   }
   .cards {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
     padding-bottom: 10%;
   }
   .card-projects {
@@ -273,6 +278,15 @@
 @media (min-width: 768px) {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 992px) {
+  .xs-only {
+    display: block !important;
+  }
+  .xl-only {
+    display: none !important;
   }
 }
 

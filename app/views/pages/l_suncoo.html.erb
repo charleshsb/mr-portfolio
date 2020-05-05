@@ -4,13 +4,20 @@
 
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide half"><%= image_tag "sw_header.jpg"%><%= image_tag "sw1.1.jpg"%></div>
-      <div class="swiper-slide half"><%= image_tag "sw2.jpg"%><%= image_tag "sw2.1.jpg"%></div>
+      <div class="swiper-slide xl-only"><%= image_tag "sw_header.jpg", class: "first-img"%><%= image_tag "sw1.1.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "sw_header.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "sw1.1.jpg"%></div>
+      <div class="swiper-slide xl-only"><%= image_tag "sw2.jpg", class: "first-img"%><%= image_tag "sw2.1.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "sw2.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "sw2.1.jpg"%></div>
       <div class="swiper-slide"><%= image_tag "sw3.jpg"%></div>
-      <div class="swiper-slide half"><%= image_tag "sw4.jpg"%><%= image_tag "sw4.1.jpg"%></div>
+      <div class="swiper-slide xl-only"><%= image_tag "sw4.jpg", class: "first-img"%><%= image_tag "sw4.1.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "sw4.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "sw4.1.jpg"%></div>
     </div>
 
-    <div class="swiper-scrollbar"></div>
+    <div class="swiper-button-next swiper-button-black"><i class="fas fa-circle"></i></div>
+    <div class="swiper-button-prev swiper-button-black"><i class="fas fa-circle"></i></div>
   </div>
 
   <div class="back">

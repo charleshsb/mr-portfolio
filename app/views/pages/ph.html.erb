@@ -4,14 +4,25 @@
 
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide half"><%= image_tag "ph_header.jpg"%><%= image_tag "ph1.1.jpg"%></div>
-      <div class="swiper-slide half"><%= image_tag "ph2.jpg"%><%= image_tag "ph2.1.jpg"%></div>
-      <div class="swiper-slide half"><%= image_tag "ph3.jpg"%><%= image_tag "ph3.1.jpg"%></div>
-      <div class="swiper-slide half"><%= image_tag "ph4.jpg"%><%= image_tag "ph4.1.jpg"%></div>
-      <div class="swiper-slide half"><%= image_tag "ph5.jpg"%><%= image_tag "ph5.1.jpg"%></div>
+      <div class="swiper-slide xl-only"><%= image_tag "ph_header.jpg", class: "first-img"%><%= image_tag "ph1.1.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "ph_header.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "ph1.1.jpg"%></div>
+      <div class="swiper-slide xl-only"><%= image_tag "ph2.jpg", class: "first-img"%><%= image_tag "ph2.1.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "ph2.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "ph2.1.jpg"%></div>
+      <div class="swiper-slide xl-only"><%= image_tag "ph3.jpg", class: "first-img"%><%= image_tag "ph3.1.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "ph3.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "ph3.1.jpg"%></div>
+      <div class="swiper-slide xl-only"><%= image_tag "ph4.jpg", class: "first-img"%><%= image_tag "ph4.1.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "ph4.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "ph4.1.jpg"%></div>
+      <div class="swiper-slide xl-only"><%= image_tag "ph5.jpg", class: "first-img"%><%= image_tag "ph5.1.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "ph5.jpg"%></div>
+      <div class="swiper-slide xs-only"><%= image_tag "ph5.1.jpg"%></div>
     </div>
 
-    <div class="swiper-scrollbar"></div>
+    <div class="swiper-button-next swiper-button-black"><i class="fas fa-circle"></i></div>
+    <div class="swiper-button-prev swiper-button-black"><i class="fas fa-circle"></i></div>
   </div>
 
   <div class="back">
