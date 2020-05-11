@@ -11,8 +11,8 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto auto 155px;
-  grid-gap: 30px;
+  grid-template-rows: auto auto auto auto auto 150px;
+  grid-gap: 20px;
 }
 
 .card-projects {
@@ -252,7 +252,7 @@
   .new1 {
     position: initial;
   }
-  .new2 {
+  .bekhti {
     position: initial;
   }
   .new3 {
