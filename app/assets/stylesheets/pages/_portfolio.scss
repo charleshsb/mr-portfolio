@@ -11,6 +11,7 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  // rajouter un row auto pour chaque nouvelle ligne de projets
   grid-template-rows: auto auto auto auto auto 150px;
   grid-gap: 20px;
 }
