@@ -4,10 +4,6 @@
   margin-bottom: 20px;
 }
 
-.filters:hover {
-  cursor: pointer;
-}
-
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -211,60 +207,6 @@
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 760px) {
-  .ph {
-    position: initial;
-  }
-  .remy {
-    position: initial;
-  }
-  .feeka {
-    position: initial;
-  }
-  .holiday {
-    position: initial;
-  }
-  .jane {
-    position: initial;
-  }
-  .jm {
-    position: initial;
-  }
-  .luco {
-    position: initial;
-  }
-  .lv {
-    position: initial;
-  }
-  .mathieu {
-    position: initial;
-  }
-  .morgan {
-    position: initial;
-  }
-  .suncoo {
-    position: initial;
-  }
-  .sw {
-    position: initial;
-  }
-  .vakko {
-    position: initial;
-  }
-  .new1 {
-    position: initial;
-  }
-  .bekhti {
-    position: initial;
-  }
-  .new3 {
-    position: initial;
-  }
-  .new4 {
-    position: initial;
-  }
-  .new5 {
-    position: initial;
-  }
   .cards {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -272,6 +214,7 @@
   }
   .card-projects {
     margin-bottom: 40px;
+    position: initial;
   }
 }
 

@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
   get 'portfolio', to: 'pages#portfolio', as: :portfolio
+  get 'editorial', to: 'pages#editorial', as: :editorial
+  get 'commercial', to: 'pages#commercial', as: :commercial
   get 'about', to: 'pages#about', as: :about
   get 'commercial-des-petits-hauts', to: 'pages#ph', as: :ph
   get 'editorial-remi-desclaux', to: 'pages#rd', as: :rd
