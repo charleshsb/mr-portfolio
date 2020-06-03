@@ -19,142 +19,176 @@
   margin-bottom: 20px;
 }
 
-.ph {
-  background-image: asset-url('ph_header.jpg');
-  background-position: top;
+.project6 {
   height: 450px;
   position: relative;
   top: 5%;
 }
 
-.remy {
-  background-image: asset-url('remy_header.jpg');
+.ph {
+  background-image: asset-url('ph_header.jpg');
   background-position: top;
+}
+
+.project4 {
   height: 200px;
   position: relative;
   top: 5%;
 }
 
-.feeka {
-  background-image: asset-url('feeka_header.jpg');
+.remi {
+  background-image: asset-url('remy_header.jpg');
   background-position: top;
+}
+
+.project7 {
   height: 450px;
   position: relative;
   top: -44%;
 }
 
-.holiday {
-  background-image: asset-url('h_header2.jpg');
+.feeka {
+  background-image: asset-url('feeka_header.jpg');
   background-position: top;
+}
+
+.project3 {
   height: 450px;
   position: relative;
 }
 
-.jane {
-  background-image: asset-url('jane_header.jpg');
+.holiday {
+  background-image: asset-url('h_header2.jpg');
   background-position: top;
+}
+
+.project5 {
   height: 450px;
   position: relative;
   top: -50%;
 }
 
-.jm {
-  background-image: asset-url('jm_header.jpg');
+.jane {
+  background-image: asset-url('jane_header.jpg');
   background-position: top;
+}
+
+.project9 {
   height: 450px;
   position: relative;
   top: 7%;
 }
 
-.luco {
-  background-image: asset-url('luco1.1.jpg');
+.jm {
+  background-image: asset-url('jm_header.jpg');
   background-position: top;
+}
+
+.project10 {
   height: 450px;
   position: relative;
   top: -40%;
 }
 
-.lv {
-  background-image: asset-url('lv_header.jpg');
+.luco {
+  background-image: asset-url('luco1.1.jpg');
   background-position: top;
+}
+
+.project12 {
   height: 200px;
   position: relative;
   top: 10%;
 }
 
-.mathieu {
-  background-image: asset-url('mathieu_header.jpg');
+.lv {
+  background-image: asset-url('lv_header.jpg');
   background-position: top;
+}
+
+.project1 {
   height: 450px;
   position: relative;
 }
 
-.morgan {
-  background-image: asset-url('morgan_header.jpg');
+.matthieu {
+  background-image: asset-url('mathieu_header.jpg');
   background-position: top;
+}
+
+.project17 {
   height: 450px;
   position: relative;
   top: -270%;
 }
 
-.suncoo {
-  background-image: asset-url('suncoo_header.jpg');
+.morgan {
+  background-image: asset-url('morgan_header.jpg');
   background-position: top;
+}
+
+.project2 {
   height: 200px;
   position: relative;
 }
 
-.sw {
-  background-image: asset-url('sw_header.jpg');
+.suncoo {
+  background-image: asset-url('suncoo_header.jpg');
   background-position: top;
+}
+
+.project8 {
   height: 450px;
   position: relative;
   top: -48%;
 }
 
-.vakko {
-  background-image: asset-url('vakko_header.jpg');
+.ls {
+  background-image: asset-url('sw_header.jpg');
   background-position: top;
+}
+
+.project11 {
   height: 200px;
   position: relative;
   top: -45%;
 }
 
-.new1 {
+.vakko {
   background-image: asset-url('vakko_header.jpg');
   background-position: top;
+}
+
+.project13 {
   height: 200px;
   position: relative;
   top: -35%;
 }
 
-.bekhti {
-  background-image: asset-url('bekhti1.jpg');
-  background-position: top;
+.project14 {
   height: 450px;
   position: relative;
   top: -94%;
 }
 
-.new3 {
-  background-image: asset-url('sw_header.jpg');
+.bekhti {
+  background-image: asset-url('bekhti1.jpg');
   background-position: top;
+}
+
+.project15 {
   height: 450px;
   position: relative;
   top: -34%;
 }
 
-.new4 {
-  background-image: asset-url('sw_header.jpg');
-  background-position: top;
+.project16 {
   height: 450px;
   position: relative;
   top: -250%;
 }
 
-.new5 {
-  background-image: asset-url('vakko_header.jpg');
-  background-position: top;
+.project18 {
   height: 200px;
   position: relative;
   top: -90%;
@@ -209,7 +243,7 @@
 @media (min-width: 100px) and (max-width: 760px) {
   .cards {
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: auto !important;
     padding-bottom: 10%;
   }
   .card-projects {
