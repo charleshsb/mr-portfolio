@@ -254,6 +254,9 @@
   .content-wrapper {
     min-height: 66vh !important;
   }
+  .about-contact {
+    flex-direction: column;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
