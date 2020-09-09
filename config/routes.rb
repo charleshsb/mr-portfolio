@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   get 'commercial-eshop-suncoo', to: 'pages#e_suncoo', as: :e_suncoo
   get 'commercial-lookbook-suncoo', to: 'pages#l_suncoo', as: :l_suncoo
   get 'commercial-vakko', to: 'pages#vakko', as: :vakko
-  get 'commercial-bekhti', to: 'pages#bekhti', as: :bekhti
+  get 'commercial-bekti', to: 'pages#bekti', as: :bekti
 
   get "*missing" => redirect("/")
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

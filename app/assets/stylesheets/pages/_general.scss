@@ -1,10 +1,12 @@
+.page-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
 body {
   background: $white;
   color: $black;
-}
-
-.content-wrapper {
-  min-height: 80vh;
 }
 
 a:hover {

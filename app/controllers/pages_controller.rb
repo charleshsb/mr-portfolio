@@ -47,6 +47,6 @@ class PagesController < ApplicationController
   def vakko
   end
 
-  def bekhti
+  def bekti
   end
 end
