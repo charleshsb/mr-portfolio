@@ -47,6 +47,15 @@ class PagesController < ApplicationController
   def vakko
   end
 
-  def bekti
+  def suncoo_fw21
+  end
+
+  def luco_ss20
+  end
+
+  def luco_fw21
+  end
+
+  def janenew
   end
 end
