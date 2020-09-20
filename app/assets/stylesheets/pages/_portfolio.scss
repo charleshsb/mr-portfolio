@@ -271,12 +271,18 @@
   .about-contact {
     flex-direction: column;
   }
+  .suncooFW21 {
+    background-size: contain;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
    .content-wrapper {
     min-height: 78vh !important;
+  }
+  .project13-commercial {
+    top: -20% !important;
   }
 }
 
@@ -286,7 +292,7 @@
   }
 }
 
-@media (min-width: 100px) and (max-width: 992px) {
+@media (min-width: 100px) and (max-width: 767px) {
   .xs-only {
     display: block !important;
   }
