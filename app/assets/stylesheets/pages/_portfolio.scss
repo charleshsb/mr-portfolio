@@ -173,7 +173,7 @@
 
 .suncooFW21 {
   background-image: asset-url('bekhti1.jpg');
-  background-size: contain;
+  background-size: cover;
 }
 
 .project15 {
@@ -265,9 +265,9 @@
     margin-bottom: 40px;
     position: initial;
   }
-  // .content-wrapper {
-  //   min-height: 66vh !important;
-  // }
+  .content-wrapper {
+    min-height: 66vh !important;
+  }
   .about-contact {
     flex-direction: column;
   }
@@ -275,8 +275,14 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
+   .content-wrapper {
+    min-height: 78vh !important;
+  }
+}
+
+@media (min-width: 992px) {
+   .content-wrapper {
+    min-height: 80vh !important;
   }
 }
 

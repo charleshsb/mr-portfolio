@@ -16,11 +16,11 @@
     <% if current_page?(root_path) %>
       <%= yield %>
     <% else %>
-      <div class="page-container">
+      <div class="">
         <%= render 'shared/navbar' %>
-        <main id="main-content">
+        <div class="content-wrapper">
           <%= yield %>
-        </main>
+        </div>
         <%= render 'shared/footer' %>
       </div>
     <% end %>
