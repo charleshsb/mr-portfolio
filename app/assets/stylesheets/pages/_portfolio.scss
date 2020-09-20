@@ -292,11 +292,17 @@
   }
 }
 
-@media (min-width: 100px) and (max-width: 767px) {
+@media (min-width: 100px) and (max-width: 768px) {
   .xs-only {
     display: block !important;
   }
   .xl-only {
+    display: none !important;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+  .xl-only-commercial {
     display: none !important;
   }
 }
