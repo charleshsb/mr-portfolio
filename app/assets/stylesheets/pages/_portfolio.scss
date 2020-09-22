@@ -65,7 +65,7 @@
 .project5 {
   height: 450px;
   position: relative;
-  top: -50%;
+  top: -48%;
 }
 
 .jane {
@@ -140,7 +140,7 @@
 .project8 {
   height: 450px;
   position: relative;
-  top: -45%;
+  top: -44%;
 }
 
 .ls {
@@ -173,7 +173,7 @@
 
 .suncooFW21 {
   background-image: asset-url('bekhti1.jpg');
-  background-size: cover;
+  background-size: contain;
 }
 
 .project15 {
@@ -268,12 +268,6 @@
   .content-wrapper {
     min-height: 66vh !important;
   }
-  .about-contact {
-    flex-direction: column;
-  }
-  .suncooFW21 {
-    background-size: contain;
-  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -283,6 +277,9 @@
   }
   .project13-commercial {
     top: -20% !important;
+  }
+  .suncooFW21 {
+    background-size: cover;
   }
 }
 
