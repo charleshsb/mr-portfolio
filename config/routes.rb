@@ -20,7 +20,8 @@ Rails.application.routes.draw do
   get 'commercial-suncooFW21', to: 'pages#suncoo_fw21', as: :suncooFW21
   get 'commercial-lucoSS20', to: 'pages#luco_ss20', as: :lucoSS20
   get 'commercial-lucoFW21', to: 'pages#luco_fw21', as: :lucoFW21
-  get 'commercial-janenew', to: 'pages#janenew', as: :janenew
+  get 'commercial-dyingbee', to: 'pages#dyingbee', as: :dyingbee
+  get 'commercial-holidayFW21', to: 'pages#holidayFW21', as: :holidayFW21
 
   get "*missing" => redirect("/")
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
