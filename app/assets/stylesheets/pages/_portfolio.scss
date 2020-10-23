@@ -281,10 +281,10 @@
     min-height: 78vh !important;
   }
   .project13-commercial {
-    top: -20% !important;
+    top: -115% !important;
   }
   .suncooFW21 {
-    background-size: cover;
+    background-size: cover !important;
   }
 }
 
@@ -309,3 +309,8 @@
   }
 }
 
+@media (min-width: 993px) and (max-width: 1200px) {
+  .suncooFW21 {
+    background-size: cover !important;
+  }
+}
